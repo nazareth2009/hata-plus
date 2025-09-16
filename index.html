@@ -8,7 +8,6 @@
 </head>
 <body>
 
- 
   <header>
     <div class="wrapper header">
       <div class="sale">
@@ -32,6 +31,7 @@
   </header>
 
 
+  
   <section class="wrapper contact-bar">
     <div class="contact-logo">
       <img src="img/logo.svg" alt="Логотип Хата Плюс">
@@ -43,53 +43,60 @@
     </div>
     <div class="email">
       <p><img src="img/email.svg" alt="Email"><a href="mailto:hataplus@hata.com.ua">hataplus@hata.com.ua</a></p>
-      <p><img src="img/skype.svg" alt="skype"><a href="#">hataplus</a></p>
+      <div class="scype">
+        <p><img src="img/skype.svg" alt="skype"><a href="#">hataplus</a></p>
+      </div>
     </div>
-
+    
     <div class="contact-button">
       <button>Замовити дзвінок</button>
     </div>
   </section>
 
+
+
   <section class="wrapper offer">
-    <picture>
-      <source srcset="img/bigpicture.webp" type="image/webp">
-      <img src="img/bigpicture.jpg" alt="Хата Плюс — пропозиція місяця">
-    </picture>
-    <h1>Пропозиція місяця</h1>
-    <p>Ми пропонуємо найкращі ціни на будинки</p>
-    <strong>5999 грн / м²</strong>
+    <div class="offer-content">
+      <div class="offer-text">
+        <h1>Пропозиція місяця</h1>
+        <p>Ми пропонуємо найкращі ціни на будинки</p>
+        <strong>5999 грн / м²</strong>
+      </div>
+    </div>
   </section>
 
- 
-  <section class="wrapper about company-banner">
-    <h2>Компанія “Хата Плюс”</h2>
-    <p>Напевно кожен з нас не раз думав про те, щоб купити будинок котедж і насолоджуватися життям в гармонії з природою. Дійсно, для багатьох жителів мегаполісу заміська нерухомість під містом стала справжньою віддушиною і порятунком від сумній життя в багатоповерхівках спальних районів. </p>
-    <p>Крім цього, заміські котеджі “Хата Плюс” від забудовника — це найбільш вигідна цінова пропозиція по співвідношенню площа / вартість, оскільки у вартість домоволодіння входить також земельна ділянка, на якому можна не тільки посадити сад, але облаштувати зону відпочинку, спорудити сауну, поставити альтанку і барбекю.</p>
-    <a href="#">Детальніше про нас</a>
-  </section>
-
-
-  <section class="wrapper popular-projects">
-          <aside class="wrapper project-categories">
-          <h3>Категорії проектів</h3>
+  <section class="about-section wrapper">
+    <div class="about-text">
+      <h2>Компанія “Хата Плюс”</h2>
+      <p>Напевно кожен з нас не раз думав про те, щоб купити будинок котедж і насолоджуватися життям в гармонії з природою. Дійсно, для багатьох жителів мегаполісу заміська нерухомість під містом стала справжньою віддушиною і порятунком від сумній життя в багатоповерхівках спальних районів. </p>
+      <p>Крім цього, заміські котеджі “Хата Плюс” від забудовника — це найбільш вигідна цінова пропозиція по співвідношенню площа / вартість, оскільки у вартість домоволодіння входить також земельна ділянка, на якому можна не тільки посадити сад, але облаштувати зону відпочинку, спорудити сауну, поставити альтанку і барбекю.</p>
+      <a href="#">Детальніше про нас</a>
+    </div>
+        <aside class="project-categories">
+        <h3>Категорії проектів</h3>
+        <nav>
           <ul>
-            <li>Генеральний план</li>
+            <li><a href="#">Генеральний план</a></li>
             <li class="has-submenu">
-              Навколишнє середовище
+              <a href="#">Навколишнє середовище</a>
               <ul class="submenu">
-                <li>Продані</li>
-                <li>Заброньовані</li>
-                <li>В процесі будівництва</li>
+                <li><a href="#">Продані</a></li>
+                <li><a href="#">Заброньовані</a></li>
+                <li><a href="#">В процесі будівництва</a></li>
               </ul>
             </li>
-            <li>Умови придбання</li>
-            <li>Загородні котеджі</li>
-            <li>Інфраструктура</li>
-            <li>Готові будинки</li>
+            <li><a href="#">Умови придбання</a></li>
+            <li><a href="#">Загородні котеджі</a></li>
+            <li><a href="#">Інфраструктура</a></li>
+            <li><a href="#">Готові будинки</a></li>
           </ul>
-        </aside>
+        </nav>
+      </aside>
+  </section>
 
+
+ 
+  <section class="wrapper popular-projects">
     <h2>Популярні проєкти</h2>
     <div class="project-list">
 
@@ -130,23 +137,28 @@
   </section>
 
 
+  
   <footer class="wrapper footer">
 
-    <div class="footer-col">
-      <ul>
-        <li><a href="#">Будинки</a></li>
-        <li><a href="#">Інфраструктура</a></li>
-        <li><a href="#">Сервіс</a></li>
-        <li><a href="#">Новини</a></li>
-      </ul>
+    <div class="footer-links">
+      <nav>
+        <ul>
+          <li><a href="#">Будинки</a></li>
+          <li><a href="#">Інфраструктура</a></li>
+          <li><a href="#">Сервіс</a></li>
+          <li><a href="#">Новини</a></li>
+        </ul>
+      </nav>
     </div>
 
-    <div class="footer-col">
-      <ul>
-        <li><a href="#">Про компанію</a></li>
-        <li><a href="#">Страхування</a></li>
-        <li><a href="#">Контакти</a></li>
-      </ul>
+    <div class="footer-links">
+      <nav>
+        <ul>
+          <li><a href="#">Про компанію</a></li>
+          <li><a href="#">Страхування</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
     </div>
 
     <div class="footer-contacts">
